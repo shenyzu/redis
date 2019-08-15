@@ -42,7 +42,7 @@ typedef struct configEnum {
     const char *name;
     const int val;
 } configEnum;
-
+typedef aaa int
 configEnum maxmemory_policy_enum[] = {
     {"volatile-lru", MAXMEMORY_VOLATILE_LRU},
     {"volatile-lfu", MAXMEMORY_VOLATILE_LFU},
